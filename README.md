@@ -1,1 +1,5 @@
-# School-management-system
+# schoolmanagement
+# schoolmanagement
+# schoolmanagement
+# school
+# Schoolsystem
