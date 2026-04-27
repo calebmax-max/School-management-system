@@ -19,9 +19,12 @@ export default function SignUp({ onSubmit, onSwitch, error = '', isSubmitting = 
     <section className="auth-card">
       <div className="auth-copy">
         <p className="eyebrow">Get started</p>
-        <h1>Create your account</h1>
+        <h1>Create your SchoolHub account</h1>
         <p>
-          Register as a student or teacher. Admin and accountant accounts are created separately by the school.
+          Register as a student or teacher to access your dashboard.
+        </p>
+        <p>
+          Please use your official school email address and select the appropriate role when registering.
         </p>
       </div>
 

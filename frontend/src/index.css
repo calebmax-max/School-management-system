@@ -656,7 +656,9 @@ body {
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
   min-height: 420px;
 }
 

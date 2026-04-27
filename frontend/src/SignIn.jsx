@@ -17,17 +17,7 @@ export default function SignIn({ onSubmit, onSwitch, error = '', isSubmitting = 
       <div className="auth-copy">
         <p className="eyebrow">Welcome back</p>
         <h1>Sign in to SchoolHub</h1>
-        <p>
-          Sign in with the account password saved in the backend. Students and teachers can register here, while admin and accountant accounts are managed by the system.
-        </p>
-        <p>
-          Admin login: <strong>admin@school.edu</strong> with <strong>AdminChangeMe!2026</strong>. Accountant login:
-          <strong> accountant@school.edu</strong> or <strong>accountant@gmail.com</strong> with <strong>AccountantChangeMe!2026</strong>.
-        </p>
-        <p>
-          Demo student and teacher accounts use <strong>SchoolUser123!</strong>. You can try
-          <strong> amelia.johnson@school.edu</strong> or <strong>sarah.mitchell@school.edu</strong>, or use <strong>Create an account</strong> for your own login.
-        </p>
+        <p>Welcome back! Sign in to access your school dashboard and continue where you left off.</p>
       </div>
 
       <form className="auth-form" onSubmit={handleSubmit}>

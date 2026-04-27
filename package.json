@@ -2,7 +2,7 @@
   "name": "school-management-system",
   "version": "1.0.0",
   "description": "Full-stack school management system for student records, performance, and fee management",
-  "main": "server.js",
+  "main": "backend/main.py",
   "scripts": {
     "start": "cd frontend && npm run dev",
     "frontend": "cd frontend && npm run dev",
