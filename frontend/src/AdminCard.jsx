@@ -164,7 +164,7 @@ export default function AdminCard({
       {showDetails && (
         <>
           <div className="admin-section">
-            <h3>System Statistics</h3>
+            <h3>System Statistic`s</h3>
             <div className="stats-grid">
               <div className="stat-card">
                 <h4>Total Students</h4>
