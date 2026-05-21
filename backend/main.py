@@ -2007,3 +2007,22 @@ def update_teacher_student(
             (student_id,),
         ).fetchone()
         return row_to_managed_student(updated_student)
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+import os
+
+# Path to frontend build
+frontend_dist = os.path.join(os.path.dirname(__file__), "../frontend/dist")
+
+# Serve Vite assets
+app.mount(
+    "/assets",
+    StaticFiles(directory=os.path.join(frontend_dist, "assets")),
+    name="assets"
+)
+
+# Serve React frontend
+@app.get("/{full_path:path}")
+async def serve_frontend(full_path: str):
+    index_path = os.path.join(frontend_dist, "index.html")
+    return FileResponse(index_path)
